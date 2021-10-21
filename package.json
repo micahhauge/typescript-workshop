@@ -1,0 +1,13 @@
+{
+  "name": "ts-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Micah Hauge",
+  "type": "module",
+  "scripts": {
+    "runGrader": "yarn tsc && node ./build/studentGrader/studentGrader.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
