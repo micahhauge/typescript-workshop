@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "runStudentGrader": "yarn tsc && node ./build/studentGrader/main.js",
+    "runGetStatusMessage": "yarn tsc && node ./build/getStatusMessage/testGetStatusMessage.js",
     "runCoffeeShop": "yarn tsc && node ./build/coffeeShop/coffeeShop.js"
   },
   "devDependencies": {

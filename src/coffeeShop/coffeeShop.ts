@@ -1,11 +1,9 @@
 type Size = "small" | "medium" | "large";
 type DrinkName = "latte" | "mocha" | "coldBrew";
-type HotOrIced = "hot" | "iced";
 
 interface Drink {
   name: DrinkName;
   size: Size;
-  hotOrIced: HotOrIced;
   extraEspressoShots?: number;
 }
 
@@ -30,12 +28,12 @@ function getDrinkPrice(drink: Drink) {
 }
 
 const drinks: Drink[] = [
-  { name: "latte", hotOrIced: "hot", size: "medium", extraEspressoShots: 1 },
-  { name: "coldBrew", hotOrIced: "iced", size: "large" },
-  { name: "coldBrew", hotOrIced: "iced", size: "large" },
+  { name: "latte", size: "medium", extraEspressoShots: 1 },
+  { name: "coldBrew", size: "large" },
+  { name: "coldBrew", size: "large" },
 ];
 
 drinks.forEach((drink) => {
   const drinkPrice = getDrinkPrice(drink);
-  console.log(`${drink.size} ${drink.hotOrIced} ${drink.name}: ${drinkPrice}`);
+  console.log(`${drink.size} ${drink.name}: ${drinkPrice}`);
 });
