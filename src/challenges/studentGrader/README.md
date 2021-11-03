@@ -5,7 +5,7 @@ This simple program takes an array of students located in `students.js` and calc
 Run the program with:
 
 ```
-yarn runStudentGrader
+yarn studentGrader
 ```
 
 Run the program and then take a look at the console output. Notice a few things:
