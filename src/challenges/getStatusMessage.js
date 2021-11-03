@@ -21,6 +21,7 @@ function getStatusMessage(status) {
   return statusMessageMap[status];
 }
 
-getStatusMessage("initial");
-getStatusMessage("fetching");
-getStatusMessage("finished");
+console.log(getStatusMessage("initial"));
+console.log(getStatusMessage("fetching"));
+console.log(getStatusMessage("finished"));
+console.log(getStatusMessage("error"));

@@ -5,9 +5,10 @@
   "author": "Micah Hauge",
   "type": "module",
   "scripts": {
-    "runStudentGrader": "yarn tsc && node ./build/studentGrader/main.js",
-    "runGetStatusMessage": "yarn tsc && node ./build/getStatusMessage/testGetStatusMessage.js",
-    "runCoffeeShop": "yarn tsc && node ./build/coffeeShop/coffeeShop.js"
+    "multiply": "yarn tsc && node ./build/multiply.js",
+    "getStatusMessage": "yarn tsc && node ./build/getStatusMessage.js",
+    "estimateHomePrice": "yarn tsc && node ./build/estimateHomePrice.js",
+    "studentGrader": "yarn tsc && node ./build/studentGrader/main.js"
   },
   "devDependencies": {
     "typescript": "^4.4.4"

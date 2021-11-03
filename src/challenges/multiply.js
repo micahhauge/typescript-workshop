@@ -9,6 +9,7 @@ function multiply(a, b) {
   return a * b;
 }
 
-// const result1 = multiply("six", 2);
-// const result2 = multiple(2, result1);
-// const result3 = multiply(2, 5, 6);
+console.log(multiply("six", 2));
+console.log(multiply(2, 5));
+console.log(multiply(2, 5, 6));
+console.log(multiple(2, 2));
