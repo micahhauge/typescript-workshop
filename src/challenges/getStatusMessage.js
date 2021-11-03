@@ -8,6 +8,7 @@
  *
  * See 'literalTypes.ts' in examples if you need some direction.
  *
+ * Run this file with "yarn getStatusMessage"
  */
 
 function getStatusMessage(status) {

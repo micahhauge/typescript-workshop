@@ -7,6 +7,8 @@
  * an interface for the user parameter.
  *
  * See 'interfaces.ts' in examples if you need some direction.
+ *
+ * Run this file with "yarn estimateHomePrices"
  */
 
 function estimateHomePrice(home) {

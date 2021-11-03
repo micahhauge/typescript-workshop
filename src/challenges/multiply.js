@@ -1,8 +1,10 @@
 /**
  * Instructions:
  *
- * Start by convert this file to a TypeScript file.
+ * Start by converting this file to a TypeScript file.
  * Then use type annotations to improve the multiply function.
+ *
+ * Run this file with "yarn multiply"
  */
 
 function multiply(a, b) {
