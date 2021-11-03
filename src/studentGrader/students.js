@@ -1,9 +1,9 @@
 const students = [
   {
     name: "Micah",
-    midtermExamGrade: 90,
-    finalExamGrade: 90,
-    quizAverage: 90,
+    midtermExamGrade: 100,
+    finalExamGrade: 100,
+    quizAverage: 100,
     attendance: 100,
     year: "freshman",
   },
