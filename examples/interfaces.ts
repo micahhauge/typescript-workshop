@@ -27,6 +27,13 @@ const user: User = {
   favoriteFood: "pizza",
 };
 
+const badUser: User = {
+  name: "Jim",
+  age: "old",
+  isMarried: false,
+  favoriteFood: "pizza",
+};
+
 function printUser(user: User): void {
   console.log(`${user.name} is ${user.age} years old.`);
 
@@ -36,22 +43,3 @@ function printUser(user: User): void {
 }
 
 printUser(user);
-
-/**
- * Notice that we can pass the const "looksLikeUser" to the function "printUser"
- * even though it isn't explicitly typed as a "User".
- *
- * This is possible because TypeScript utilizes Duck Typing. This means that
- * arguments can be passed to the "printUser" function as long as they have the same
- * type signature as the User type, even if they aren't explicitly typed as a "User".
- *
- * "Walks like a duck? Talks like a duck? It's a duck!"
- */
-const looksLikeUser = {
-  name: "John",
-  age: 37,
-  isMarried: true,
-  favoriteFood: "sushi",
-};
-
-printUser(looksLikeUser);
