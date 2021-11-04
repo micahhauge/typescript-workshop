@@ -5,6 +5,7 @@
   "author": "Micah Hauge",
   "type": "module",
   "scripts": {
+    "playground": "yarn tsc && node ./build/playground.js",
     "multiply": "yarn tsc && node ./build/multiply.js",
     "average": "yarn tsc && node ./build/average.js",
     "getStatusMessage": "yarn tsc && node ./build/getStatusMessage.js",
