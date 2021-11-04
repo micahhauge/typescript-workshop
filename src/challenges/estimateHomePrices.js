@@ -4,7 +4,7 @@
  * Start by converting this file to a TypeScript.
  *
  * Then see if you can improve the function by creating
- * an interface for the user parameter.
+ * an interface for the home parameter.
  *
  * See 'interfaces.ts' in examples if you need some direction.
  *

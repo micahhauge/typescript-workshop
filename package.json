@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "multiply": "yarn tsc && node ./build/multiply.js",
+    "average": "yarn tsc && node ./build/average.js",
     "getStatusMessage": "yarn tsc && node ./build/getStatusMessage.js",
-    "estimateHomePrice": "yarn tsc && node ./build/estimateHomePrice.js",
+    "estimateHomePrices": "yarn tsc && node ./build/estimateHomePrices.js",
     "studentGrader": "yarn tsc && node ./build/studentGrader/main.js"
   },
   "devDependencies": {
