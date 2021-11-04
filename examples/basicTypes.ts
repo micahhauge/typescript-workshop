@@ -1,39 +1,36 @@
 /**
  * JavaScript has several builtin primitives such as booleans,
  * strings, and numbers. Typescript provides types for each of these.
- *
- * You can annotate function parameters with these types to define what type of
- * data the function accepts for each parameter.
- *
- * You can also specify the return type for a function.
  */
+const a: number = 42;
+const b: boolean = true;
+const c: string = "Hello World";
+const d: object = {};
 
+/**
+ * You can use the type annotations to specify that a variable
+ * should be a certain type. You will get helpful messages when
+ * you try to assign it to the wrong type.
+ */
+let myNumber: number;
+myNumber = 10;
+myNumber = "test"; // Notice that the problem is highlighted in VSCode
+
+/**
+ * You can annotate function parameters and return types using
+ * a similar syntax.
+ */
 function multiply(a: number, b: number): number {
   return a * b;
 }
-function exampleFunction(a: boolean, b: string, c: number): void {
-  console.log(a, b, c);
-}
 
-const result = multiply(1, 2);
-exampleFunction(true, "test", 42);
+multiply(2, 2);
+multiply("2", 2);
 
 /**
- * You can also annotate variables with types.
+ * You can declare that a type is an array using square brackets
  */
-const myBoolean: boolean = true;
-const myString: string = "Hello, world.";
-const myNumber: number = 42;
-const myObject: object = {};
+const myNumberArray: number[] = [1, 2, 3, 4];
 
-exampleFunction(myBoolean, myString, myNumber);
-
-/**
- * Annotating variables with types is not always necessary
- * because variable types can be determined implicitly by assignment.
- */
-const myImplicitBoolean = true;
-const myImplicitString = "Hello, world.";
-const myImplicitNumber = multiply(2, 2);
-
-exampleFunction(myImplicitBoolean, myImplicitString, myImplicitNumber);
+myNumberArray.push(2);
+myNumberArray.push("someString");
