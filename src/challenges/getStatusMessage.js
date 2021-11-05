@@ -6,7 +6,8 @@
  * Then see if you can create a type for the status argument by combining
  * what you know about literal types and union types.
  *
- * See 'literalTypes.ts' in examples if you need some direction.
+ * See 'literalTypes.ts' and 'utilityTypes.ts' in
+ * examples if you need some direction.
  *
  * Run this file with "yarn getStatusMessage"
  */

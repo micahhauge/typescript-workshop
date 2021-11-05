@@ -40,6 +40,7 @@ Here's how those examples and challenges are associated, as well as the `yarn` s
 | `./examples/basicTypes.ts`      | `./src/challenges/multiply.js` and `./src/challenges/average.js`              | `multiply` and `average`                 |
 | `./examples/interfaces.ts`      | `./src/challenges/estimateHomePrices.js` and `./src/challenges/studentGrader` | `estimateHomePrices` and `studentGrader` |
 | `./examples/literalTypes.ts`    | `./src/challenges/getStatusMessage.js`                                        | `getStatusMessage`                       |
+| `./examples/utilityTypes.ts`    | `./src/challenges/getStatusMessage.js`                                        | `getStatusMessage`                       |
 | `./examples/typeComposition.ts` | `TODO`                                                                        | `TODO`                                   |
 
 After converting each of those challenges to TypeScript and fixing issues that will be obvious once you add type annotations, the `yarn` commands should run without any issues.
