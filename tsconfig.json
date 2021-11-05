@@ -6,5 +6,8 @@
     "module": "es6",
     "target": "es5"
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*"],
+  // Exclude the examples, since they intentionally
+  // have errors to highlight dev tooling abilities.
+  "exclude": ["./src/examples"]
 }
