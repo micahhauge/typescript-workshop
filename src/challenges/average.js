@@ -12,9 +12,9 @@
  * Run this file with "yarn average"
  */
 
-function getAverage(numbers) {
-  const sum = numbers.reduce((total, number) => total + number);
-  return sum / numbers.length;
+function getAverage(numbersArray) {
+  const sum = numbersArray.reduce((total, number) => total + number);
+  return sum / numbersArray.length;
 }
 
 // Correct Usage
