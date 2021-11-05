@@ -1,4 +1,8 @@
 /**
+ * TypeScript provides many builtin Utility Types.
+ * You can read more about them here:
+ * https://www.typescriptlang.org/docs/handbook/utility-types.html
+ *
  * The Record utility type constructs an object type whose
  * the keys are the first argument, and values are the second
  * type argument.
