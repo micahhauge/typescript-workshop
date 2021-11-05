@@ -1,8 +1,6 @@
 /**
- * One of the builtin TypeScript types is "object".
- *
- * Objects are used extensively in JavaScript applications, so you may
- * be tempted to use the "object" type frequently.
+ * Objects are used extensively to store and pass data in JavaScript
+ * applications, so you may be tempted to use the "object" type frequently.
  *
  * However, if you know that the keys and values within an object should
  * adhere to a particular structure you can more accurately type it using
