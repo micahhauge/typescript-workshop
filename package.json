@@ -5,12 +5,12 @@
   "author": "Micah Hauge",
   "type": "module",
   "scripts": {
-    "playground": "yarn tsc && node ./build/playground.js",
-    "multiply": "yarn tsc && node ./build/multiply.js",
-    "average": "yarn tsc && node ./build/average.js",
-    "getStatusMessage": "yarn tsc && node ./build/getStatusMessage.js",
-    "estimateHomePrices": "yarn tsc && node ./build/estimateHomePrices.js",
-    "studentGrader": "yarn tsc && node ./build/studentGrader/main.js"
+    "playground": "yarn tsc && node ./build/playground/playground.js",
+    "multiply": "yarn tsc && node ./build/challenges/multiply.js",
+    "average": "yarn tsc && node ./build/challenges/average.js",
+    "getStatusMessage": "yarn tsc && node ./build/challenges/getStatusMessage.js",
+    "estimateHomePrices": "yarn tsc && node ./build/challenges/estimateHomePrices.js",
+    "studentGrader": "yarn tsc && node ./build/challenges/studentGrader/main.js"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
